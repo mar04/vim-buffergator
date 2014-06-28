@@ -1906,6 +1906,7 @@ endfunction
 
 function! buffergator#ToggleBuffergatorTabs()
     call s:_catalog_viewer.close(1)
+    call s:_tab_catalog_viewer.toggle()
 endfunction
 
 " 1}}}
